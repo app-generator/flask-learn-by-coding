@@ -1,2 +1,8 @@
 dev
 *.pyc
+src/deploy.js
+src/package.json
+src/static.py
+src/node_modules
+src/app/build
+src/yarn.lock

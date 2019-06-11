@@ -1,6 +1,8 @@
 # Flask - Learn by coding
 A simple [Flask](http://flask.pocoo.org/) app coded for beginners - Live [Demo](https://flask-learn-by-coding.appseed.us)
 
+![Flask App - Learn by coding - Intro](https://github.com/app-generator/static/blob/master/flask-learn-by-coding/flask-learn-by-coding-intro.gif)
+
 Project Structure
 --------
 
