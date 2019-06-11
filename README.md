@@ -1,7 +1,66 @@
 # Flask - Learn by coding
-A simple [Flask](http://flask.pocoo.org/) tutorial for beginners.
+A simple [Flask](http://flask.pocoo.org/) app coded for beginners - Live [Demo](https://flask-learn-by-coding.appseed.us)
 
-## Content
- - The [source code](/src)
- - [Setup the environment](https://docs.appseed.us/tutorials/flask-learn-by-coding/flask-setup-python-environment/) - download [Python](https://www.python.org/), check the installation via command `python --version` and install Flask `pip install Flask`
- - [Run the app](https://docs.appseed.us/tutorials/flask-learn-by-coding/flask-first-run/) for the first time
+Project Structure
+--------
+
+  ```sh
+  ├── src
+  │   ├── run.py
+  │   ├── app
+  │   │   ├── __init__.py
+  |   |
+  │   ├── templates
+  │   │     ├── includes
+  │   │     │      ├── contact.html
+  │   │     │      ├── footer.html
+  │   │     │      ├── header.html
+  │   │     │      ├── navigation.html
+  │   │     │      ├── scripts.html
+  │   │     │      ├── section-top.html
+  │   │     │      ├── section-features.html
+  │   │     │      ├── section-team.html
+  │   │     ├── layouts
+  │   │     │      ├── default.html
+  │   │     ├── pages
+  │   │            ├── index.html
+  │   │
+  │   └── static
+  │        ├── assets
+  │              ├── css
+  │              ├── img
+  │              └── js
+  └── README.md (this file)
+  ```
+
+### Quick Start
+
+1. Clone the repo
+  ```
+  $ git clone https://github.com/app-generator/flask-learn-by-coding.git
+  $ cd flask-learn-by-coding/src
+  ```
+
+2. Install the dependencies:
+  ```
+  $ pip install -r requirements.txt
+  ```
+
+3. Setup the environment:
+  ```
+  $ export FLASK_APP=run.py
+  ```
+
+4. Run the app:
+  ```
+  $ flask run
+  ```
+
+### Screenshots
+
+![Pages](https://raw.githubusercontent.com/app-generator/static/master/flask-learn-by-coding/flask-learn-by-coding-screen-1.jpg)
+
+![Forms](https://raw.githubusercontent.com/app-generator/static/master/flask-learn-by-coding/flask-learn-by-coding-screen-2.jpg)
+
+---
+Happy Coding!
