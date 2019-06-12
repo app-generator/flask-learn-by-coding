@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route('/hello')
 def hello():
-    return 'Hello, your Up!'
+    return 'Hello Coder, you are up!'
 
 @app.route('/')
 def index():
