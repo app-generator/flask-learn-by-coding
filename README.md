@@ -1,10 +1,14 @@
-# Flask - Learn by coding
+# [Flask Learn by coding](https://dev.to/sm0ke/flask-learn-by-coding-1o8o)
+
 A simple [Flask](http://flask.pocoo.org/) app coded for beginners - Live [Demo](https://flask-learn-by-coding.appseed.us)
+
+<br />
 
 ![Flask App - Learn by coding - Intro](https://github.com/app-generator/static/blob/master/flask-learn-by-coding/flask-learn-by-coding-intro.gif)
 
-Project Structure
---------
+<br />
+
+## Project Structure
 
   ```sh
   ├── src
@@ -35,7 +39,9 @@ Project Structure
   └── README.md (this file)
   ```
 
-### Quick Start
+<br />
+
+## Quick Start
 
 1. Clone the repo
   ```
@@ -58,11 +64,15 @@ Project Structure
   $ flask run
   ```
 
-### Screenshots
+<br />
+
+## Screenshots
 
 ![Pages](https://raw.githubusercontent.com/app-generator/static/master/flask-learn-by-coding/flask-learn-by-coding-screen-1.jpg)
 
 ![Forms](https://raw.githubusercontent.com/app-generator/static/master/flask-learn-by-coding/flask-learn-by-coding-screen-2.jpg)
 
+<br />
+
 ---
-Happy Coding!
+[Flask Learn by coding](https://dev.to/sm0ke/flask-learn-by-coding-1o8o) - tutorial provided by **AppSeed**
