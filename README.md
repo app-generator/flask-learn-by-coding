@@ -1,78 +1,68 @@
-# [Flask Learn by coding](https://dev.to/sm0ke/flask-learn-by-coding-1o8o)
+# Learn FastAPI by Coding
 
-A simple [Flask](http://flask.pocoo.org/) app coded for beginners - Live [Demo](https://flask-learn-by-coding.appseed.us)
+Open-source project provided by AppSeed to help beginners accommodate faster with Flask. For newcomers, Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.
 
-<br />
-
-![Flask App - Learn by coding - Intro](https://github.com/app-generator/static/blob/master/flask-learn-by-coding/flask-learn-by-coding-intro.gif)
+> **For support and more [Free Samples](https://appseed.us/admin-dashboards/open-source) join [AppSeed](https://appseed.us).**
 
 <br />
 
-## Project Structure
+## Getting Started with FastAPI
 
-  ```sh
-  ├── src
-  │   ├── run.py
-  │   ├── app
-  │   │   ├── __init__.py
-  |   |
-  │   ├── templates
-  │   │     ├── includes
-  │   │     │      ├── contact.html
-  │   │     │      ├── footer.html
-  │   │     │      ├── header.html
-  │   │     │      ├── navigation.html
-  │   │     │      ├── scripts.html
-  │   │     │      ├── section-top.html
-  │   │     │      ├── section-features.html
-  │   │     │      ├── section-team.html
-  │   │     ├── layouts
-  │   │     │      ├── default.html
-  │   │     ├── pages
-  │   │            ├── index.html
-  │   │
-  │   └── static
-  │        ├── assets
-  │              ├── css
-  │              ├── img
-  │              └── js
-  └── README.md (this file)
-  ```
+> Create a Virtual Environment
+
+```bash
+$ # Virtualenv modules installation (Unix-based systems)
+$ virtualenv env
+$ source env/bin/activate
+$
+$ # Virtualenv modules installation (Windows-based systems)
+$ # virtualenv env
+$ # .\env\Scripts\activate
+```
 
 <br />
 
-## Quick Start
+> Install `Flask`
 
-1. Clone the repo
-  ```
-  $ git clone https://github.com/app-generator/flask-learn-by-coding.git
-  $ cd flask-learn-by-coding/src
-  ```
-
-2. Install the dependencies:
-  ```
-  $ pip install -r requirements.txt
-  ```
-
-3. Setup the environment:
-  ```
-  $ export FLASK_APP=run.py
-  ```
-
-4. Run the app:
-  ```
-  $ flask run
-  ```
+```bash
+$ pip install flask
+```
 
 <br />
 
-## Screenshots
+> Edit your first Flask app `main.py`
 
-![Pages](https://raw.githubusercontent.com/app-generator/static/master/flask-learn-by-coding/flask-learn-by-coding-screen-1.jpg)
+```python
+from flask import Flask
+app = Flask(__name__)
 
-![Forms](https://raw.githubusercontent.com/app-generator/static/master/flask-learn-by-coding/flask-learn-by-coding-screen-2.jpg)
+@app.route('/')
+def hello_world():
+    return 'Hello from Flask!'
+```
 
 <br />
 
----
-[Flask Learn by coding](https://dev.to/sm0ke/flask-learn-by-coding-1o8o) - tutorial provided by **AppSeed**
+> Setup the environment
+
+```bash
+$ # Set the FLASK_APP environment variable
+$ (Unix/Mac) export FLASK_APP=main.py
+$ (Windows) set FLASK_APP=main.py
+$ (Powershell) $env:FLASK_APP = ".\main.py" 
+```
+
+<br />
+
+> Start the app
+
+```bash
+$ flask run
+$
+$ # Access the app in browser: http://127.0.0.1:5000/
+```
+
+<br />
+
+--- 
+Learn Flask by Coding - Provided and actively supported by AppSeed [App Generator](https://appseed.us)
